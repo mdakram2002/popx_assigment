@@ -20,7 +20,7 @@ const AccountSettings = ({ onPrev }) => {
       <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-6 sm:p-8 min-h-[500px] sm:min-h-[600px] flex flex-col">
         {/* Header */}
         <div className="mb-6 sm:mb-8">
-          <h1 className="text-xl sm:text-2xl font-bold text-gray-800">Account Settings</h1>
+          <h1 className="text-2xl sm:text-2xl font-bold text-gray-800">Account Settings</h1>
         </div>
 
         {/* Profile Section */}
@@ -31,13 +31,15 @@ const AccountSettings = ({ onPrev }) => {
               alt="Profile"
               className="w-12 h-12 sm:w-12 sm:h-12 rounded-full object-cover"
             />
+
             {/* Camera button - fixed for mobile */}
             <button
               onClick={() => fileInputRef.current.click()}
-              className="absolute -bottom-1 -right-1 bg-purple-600 lg:p-1.5 p-0.5 sm:p-1.5 rounded-full border-[2px] border-white hover:bg-purple-700 transition-colors sm:bg-purple-700 sm:rounded-l-full"
+              className="absolute -bottom-1 -right-1 bg-purple-600 lg:p-1.5 p-0.5 sm:p-1 rounded-full border-[2px] border-white hover:bg-purple-700 transition-colors"
             >
-              <FaCamera className="text-white text-xs sm:text-xs" />
+              <FaCamera className="text-white text-xs sm:text-[8px]" />
             </button>
+
             <input
               type="file"
               accept="image/*"
