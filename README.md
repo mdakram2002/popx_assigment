@@ -1,10 +1,10 @@
-# 🚀 PopX React Application
+# PopX React Application
 
 A **mobile-responsive React application** built for the **PopX onboarding flow**, featuring a clean UI, smooth navigation, and pixel-perfect responsiveness across **mobile, tablet, and desktop** devices.
 
 ---
 
-## 📱 Screens Implemented
+## Screens Implemented
 
 1. **Welcome Screen**
    Landing page with options to create a new account or log in.
@@ -20,21 +20,21 @@ A **mobile-responsive React application** built for the **PopX onboarding flow**
 
 ---
 
-## ✨ Features
+## Features
 
-- 📱 Pixel-perfect mobile-first UI
-- 💻 Responsive design for mobile, tablet, and desktop
-- 🔄 Smooth navigation between screens
-- 🧭 Bottom navigation with Previous / Next / Home
-- 🖼️ Profile picture upload from device gallery
-- 🧾 Form handling using React Hooks
-- 🎨 Styled with Tailwind CSS
-- 🧩 Clean, modular, and well-structured code
-- 📦 Scalable component-based architecture
+- Pixel-perfect mobile-first UI
+- Responsive design for mobile, tablet, and desktop
+- Smooth navigation between screens
+- Bottom navigation with Previous / Next / Home
+- Profile picture upload from device gallery
+- Form handling using React Hooks
+- Styled with Tailwind CSS
+- Clean, modular, and well-structured code
+- Scalable component-based architecture
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **React.js**
 - **Tailwind CSS**
@@ -44,11 +44,11 @@ A **mobile-responsive React application** built for the **PopX onboarding flow**
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
-### 1️⃣ Clone the Repository
+### Clone the Repository
 ```bash
-   git clone <your-repository-url>
+   git clone (https://github.com/mdakram2002/popx_assigment)
    cd popx-app
 
    npm install
@@ -58,14 +58,14 @@ A **mobile-responsive React application** built for the **PopX onboarding flow**
 
 ---
 
-**Hosting & Deployment (Vercel)**
+## **Hosting & Deployment (Vercel)**
 
 Create a GitHub repository and push this project.
-Go to https://vercel.com
+- Go to https://vercel.com
 Import your GitHub repository.
-Vercel will automatically detect the React app and deploy it.
-🔗 Live Demo (Example):
-https://popx-assigment.vercel.app/
+- Vercel will automatically detect the React app and deploy it.
+- 🔗 Live Demo (Example):
+https://popx-assigment.vercel.app
 
 
 ---
